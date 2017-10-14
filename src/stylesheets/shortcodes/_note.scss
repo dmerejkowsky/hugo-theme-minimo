@@ -1,0 +1,9 @@
+div.note {
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
+div.note::before {
+  content: "Note: ";
+  color: black;
+}
