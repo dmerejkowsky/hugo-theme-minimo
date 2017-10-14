@@ -3,5 +3,13 @@
   {{ partial "entry/meta/posted-on" . }}
   {{ partial "entry/meta/author" . }}
   {{ partial "entry/meta/reading-time" . }}
+  {{ range $taxonomy, $pages := .Site.Taxonomies }}
+    {{- if not ( eq $taxonomy "authors" ) -}}
+      {{- if ( index $.Params $taxonomy ) -}}
+        {{- $.Scratch.Set "taxonomy" $taxonomy -}}
+        {{- partial "entry/taxonomy-list" $ -}}
+      {{- end -}}
+    {{- end -}}
+  {{ end }}
 </div>
 {{ end }}

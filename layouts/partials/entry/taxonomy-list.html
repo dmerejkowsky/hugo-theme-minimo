@@ -1,7 +1,7 @@
 {{- $txs := ( $.Scratch.Get "taxonomy" ) -}}
 {{- $tx := ( $txs | singularize ) -}}
 
-<div class='{{ $txs }}'>
+<!--<div class='{{ $txs }}'>-->
   <span class='taxonomyTerm-icon'>
     {{- partial "svg/icons" $tx -}}
   </span>
@@ -16,4 +16,4 @@
     {{- end -}}
   </a>
   {{- end -}}
-</div>
+<!--</div>-->
