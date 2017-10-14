@@ -1,5 +1,7 @@
 {{- if not .Site.Params.Settings.HideEntryNavigation -}}
 
+{{- if ( eq .Section "post" ) -}}
+
 {{ if gt ( len ( where .Site.RegularPages "Section" .Section ) ) 1 }}
 <nav class='entry-nav-container'>
   <div class='entry-nav'>
@@ -33,5 +35,7 @@
   </div>
 </nav>
 {{ end }}
+
+{{- end -}}
 
 {{- end -}}
