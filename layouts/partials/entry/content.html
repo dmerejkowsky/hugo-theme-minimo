@@ -1,10 +1,12 @@
 <div class='entry-content'>
   {{ .Content }}
 
-  <script data-isso="//dmerej.info/isso/"
-          src="//dmerej.info/isso/js/embed.min.js">
-  </script>
-  <section id="isso-thread">
-  </section>
+  {{- if not ( eq .Params.comments false ) -}}
+    <script data-isso="//dmerej.info/isso/"
+            src="//dmerej.info/isso/js/embed.min.js">
+    </script>
+    <section id="isso-thread">
+    </section>
 
+  {{- end -}}
 </div>
