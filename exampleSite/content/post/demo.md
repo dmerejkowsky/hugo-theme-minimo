@@ -3,6 +3,13 @@ date: 2017-09-30T00:00:00+06:00
 title: Demo
 ---
 
+I'm talking about the `bar` function.
+
+```python
+def bar():
+   return 1 + 2
+```
+
 {{< note >}} this is a note {{</ note >}}
 
 {{< audio "it-was-at-this-moment.mp3" >}}
