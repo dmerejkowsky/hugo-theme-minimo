@@ -38,6 +38,10 @@ var {
   font-family: $font-family__code;
 }
 
+p code {
+  background-color: $color__background-inline-code;
+}
+
 abbr,
 acronym {
   border-bottom: 1px dotted $color__black;
