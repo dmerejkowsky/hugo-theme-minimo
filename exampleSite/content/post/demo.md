@@ -5,6 +5,9 @@ title: Demo
 
 I'm talking about the `bar` function.
 
+* And here I'm talking in a list
+ * about `baz`
+
 ```python
 def bar():
    return 1 + 2

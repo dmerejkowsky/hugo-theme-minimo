@@ -35,12 +35,14 @@ code,
 kbd,
 tt,
 var {
-  font-family: $font-family__code;
-}
-
-p code {
   background-color: $color__background-inline-code;
 }
+
+pre code {
+  background-color: $color__background-code-snippets;
+}
+
+
 
 abbr,
 acronym {
