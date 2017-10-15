@@ -8,6 +8,30 @@ I'm talking about the `bar` function.
 * And here I'm talking in a list
  * about `baz`
 
+```java
+package mypackage.controller;
+
+import mypackage.Employee;
+import mypackage.repository.SQLRepository;
+import mypackage.renderer.Renderer;
+
+public class Controller {
+    private SQLRepository repository;
+    private Renderer renderer;
+
+    public Controller() {
+        repository = new SQLRepository();
+        renderer = new Renderer();
+    }
+
+    public String viewEmployee(int id) {
+        Employee employee = repository.getEmployeeByID(id);
+        String res = renderer.renderEmployee(employee);
+        return res;
+    }
+}
+```
+
 ```python
 def bar():
    return 1 + 2
