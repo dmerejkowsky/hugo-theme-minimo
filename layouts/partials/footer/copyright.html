@@ -1,18 +1,13 @@
-<div class='copyright'>
-  <p>
-  {{- with .Site.Copyright -}}
-    {{ . }}
-  {{- else -}}
-    {{- with .Site.Params.Copyright -}}
-
-      {{ with .startyear }}
-        {{ if lt ( int . ) now.Year }}
-          {{ $.Scratch.Set "copyrightStartYear" . }}
-        {{ end }}
-      {{ end }}
-
-      {{ .prefix }} &copy; {{ with ( $.Scratch.Get "copyrightStartYear" ) }}{{ . }}-{{ end }}{{ now.Year }} {{ or .holder $.Site.Title }} {{ .suffix }}
-    {{- end -}}
-  {{ end }}
-  </p>
+<div id="copyright">
+<p>
+  This work is licensed under a
+  <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+  Creative Common Attribution 4.0 International License
+  </a>
+</p>
+<p>
+  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/" target="_blank">
+    <img alt="license" src="https://i.creativecommons.org/l/by/4.0/88x31.png">
+  </a>
+</p>
 </div>
