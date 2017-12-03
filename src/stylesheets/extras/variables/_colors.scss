@@ -4,7 +4,9 @@ $color__grey: #bdbdbd;
 $color__white: #fafafa;
 
 $color__background-hr: $color__grey;
-$color__background-button: $color__accent;
+// Keep this sync'd with isso
+$color__background-button: #CCC;
+$color__background-button-hover: #DDD;
 $color__background-screen: $color__black;
 $color__background-inline-code: #e6e6e6;
 // Keep this sync'd with chroma theme
