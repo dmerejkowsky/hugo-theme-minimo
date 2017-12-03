@@ -3,8 +3,9 @@
 <main id='main' class='main'>
   <article lang='{{ .Params.Lang | default .Lang }}' class='entry'>
     {{ partial "entry/header" . }}
-    <div class='entry-content'>
-      <h2>By tag</h2>
+  <div class='home-sections-container'>
+    <div class='home-sections'>
+    <h2>By tag</h2>
 
   <p>
     <ul>
@@ -27,6 +28,7 @@
   </ul>
   {{ end }}
 
+      </div>
     </div>
   </article>
 </main>
