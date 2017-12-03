@@ -53,15 +53,6 @@ page = "" # Twitter page username
 # Title Separator: - – — · • * ⋆ | ~ « » < >
 titleSeparator = "•"
 
-[params.social]
-codepen = "MunifTanjim"
-email = "contact@example.com"
-facebook = "MunifTanjim"
-github = "MunifTanjim"
-instagram = "MunifTanjim"
-linkedin = "muniftanjim"
-twitter = "MunifTanjim"
-
 [params.social.config]
 platforms = ["github","facebook","twitter","instagram","email","codepen","linkedin"]
 
