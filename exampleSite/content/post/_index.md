@@ -1,5 +1,6 @@
 ---
-title: Blog
+title: "Archives"
 menu: main
-weight: -230
+comments: false
+meta: false
 ---
