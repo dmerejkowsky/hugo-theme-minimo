@@ -1,7 +1,7 @@
 <div class='entry-content'>
   {{ .Content }}
 
-  {{- if ( eq .Section "post" ) -}}
+  {{- if not ( eq .Params.feedback false ) -}}
   <hr />
   <div id='feedback-invitation'>
     <p>
