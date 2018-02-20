@@ -2,7 +2,11 @@
   {{- . -}}
 {{- else -}}
   {{- if .IsPage -}}
-    {{- .Summary -}}
+    {{- if .Params.Summary }}
+      {{ .Params.Summary }}
+    {{- else -}}
+      {{- .Summary -}}
+    {{- end -}}
   {{- else -}}
     {{- with .Site.Params.Info.description -}}
       {{- . -}}
