@@ -10,7 +10,7 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack -p",
-    "start": "hugo server -p 1234 --source=exampleSite --themesDir=../..",
+    "start": "hugo server --disableFastRender -p 1234 --source=exampleSite --themesDir=../..",
     "watch": "webpack --watch --progress --colors"
   },
   "devDependencies": {
