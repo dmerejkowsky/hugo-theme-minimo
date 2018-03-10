@@ -68,3 +68,12 @@
     padding: 0 1.5em 0.5em 0;
   }
 }
+
+
+#tag-list {
+ul {
+    max-width: 50%;
+    columns: 3;
+    list-style-type: none;
+  }
+}
