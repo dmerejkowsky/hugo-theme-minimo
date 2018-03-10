@@ -1,5 +1,6 @@
 {{ partial "header" . }}
 
+
 <main id='main' class='main'>
   <article lang='{{ .Params.Lang | default .Lang }}' class='entry'>
     {{ partial "entry/header" . }}
@@ -7,16 +8,19 @@
     <div class='home-sections'>
     <h2>By tag</h2>
 
-  <p>
-    <ul>
-      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
-        <li>
-          <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
-            <small>({{ len $taxonomy }})</small>
-        </li>
-      {{ end }}
-    </ul>
-  </p>
+
+  <div id="tag-list">
+    <p>
+      <ul>
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+          <li>
+            <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+              <small>({{ len $taxonomy }})</small>
+          </li>
+        {{ end }}
+      </ul>
+    </p>
+  </div>
 
   <h2>By date</h2>
   {{ range .Data.Pages.GroupByDate "2006" }}
