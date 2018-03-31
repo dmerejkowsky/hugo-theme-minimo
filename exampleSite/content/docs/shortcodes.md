@@ -13,6 +13,18 @@ Minimo comes with several shortcodes built-in.
 
 -------
 
+Some text above the note.
+
+{{<note>}}
+From now on, everything takes place on a **Linux** machine. There are some differences when using macOS or Windows, but for the sake of simplicity I will only deal with one platform here.
+We will also use **Python3** only. Again, in Python2 things are a little different, but let's keep things simple.
+{{</note>}}
+
+
+Some text below the note.
+
+> This is a quote
+
 ## Shortcode: center
 
 Center align you content.
@@ -42,7 +54,7 @@ Include content from seperate file with syntax highlighting.
 
 ### file: Parameters
 
-0 => filename [`String`] \(required\)  
+0 => filename [`String`] \(required\)
 1 => filetype [`String`] \(optional\)
 
 ### file: Usage Example
@@ -72,14 +84,14 @@ You can use either Named or Unnamed Parameters
 
 **Unnamed Parameters**
 
-0 => textsize [`String`] \(required\): multiplier relative to the normal size  
+0 => textsize [`String`] \(required\): multiplier relative to the normal size
 1 => textcolor [`String`] \(optional\): name / hex / rgb / rgba
 
 ### text: Usage Example
 
 ```golang
 {{%/* text s="1.4" color="purple" */%}}
-font-size: 1.4em;  
+font-size: 1.4em;
 color: purple;
 {{%/* /text */%}}
 ```
@@ -87,7 +99,7 @@ color: purple;
 **Output**
 
 {{% text s="1.4" color="purple" %}}
-font-size: 1.5em;  
+font-size: 1.5em;
 color: purple;
 {{% /text %}}
 
