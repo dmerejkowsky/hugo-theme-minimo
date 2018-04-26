@@ -1,0 +1,23 @@
+Main author: Dimitri Merejkowsky
+Site: https://dmerej.info
+Location: Paris, France.
+
+/* THANKS */
+
+  Hugo authors
+  Site: gohugo.io
+
+  Munif Tanjim: minimo (theme of the blog) author
+  Site: https://muniftanjim.com
+
+  Gandi: for DNS and hosting
+  Site: https://gandi.net
+
+  Faithful subscribers (you know who you are)
+  People who leave helpful comments (you rock)
+
+
+/* SITE */
+    Language: English
+    Doctype: HTML5
+    IDE: neovim
