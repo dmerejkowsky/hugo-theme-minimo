@@ -1,6 +1,9 @@
 Main author: Dimitri Merejkowsky
-Site: https://dmerej.info
 Location: Paris, France.
+Mastodon: dmerej@mamot.fr
+IRC     : dmerejkowsy (freenode, irc.mozilla.org)
+Twitter : d_merej
+
 
 /* THANKS */
 
