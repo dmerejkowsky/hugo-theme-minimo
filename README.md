@@ -1,6 +1,6 @@
 # About this fork
 
-This is where I keep the modifications I've made to the original theme by Munif Tanjim.
+This is where I keep the modifications I've made to the [original theme by Munif Tanji](https://minimo.netlify.com/).
 
 
 Feel free to take a look at the changes and re-use them if you like but please note:
