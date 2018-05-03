@@ -1,31 +1,20 @@
-# Minimo
+# About this fork
 
-A minimalist theme for Hugo.
+This is where I keep the modifications I've made to the original theme by Munif Tanjim.
 
-![Minimo – A minimalist theme for Hugo](https://raw.githubusercontent.com/MunifTanjim/minimo/master/images/tn.png)
 
-## Documentation
+Feel free to take a look at the changes and re-use them if you like but please note:
 
-Check the [Minimo Documentation](https://minimo.netlify.com/docs/) for detailed documentation of Minimo.
+* I'm not really good at front-end dev, so most of them are ugly hacks
+* Some parts of the theme requires stuff in the blog and vice-versa
+* The original theme may contain bug fixes I was too lazy to backport
 
-#### Getting Up & Running
+Thus, I highly recommend you **don't use it** directly with you own blog.
 
-Follow these guides for getting your site up & running with Minimo:
+Instead, I suggest you:
 
-- **Install Minimo**: [Installation Guide](https://minimo.netlify.com/docs/installation)
-- **Setup Authors**: [Authors Setup Guide](https://minimo.netlify.com/docs/authors)
 
-## Development
+* Create your own, personal fork of the original theme
+* Take at my patches one by one, consider if you need them, then apply them in your fork if required
 
-If you find a bug or want to request a new feature, feel free to open an issue.
-
-## Changelog
-
-[Changelog for Minimo](https://github.com/MunifTanjim/minimo/blob/master/CHANGELOG.md)
-
-## License
-Minimo is licensed under the MIT License. Check the [LICENSE](https://github.com/MunifTanjim/minimo/blob/master/LICENSE) file for details.
-
-The following resources are included/used in the theme:
-
-- [Feather](https://feather.netlify.com/) by Cole Bemis - Licensed under the [MIT License](https://github.com/colebemis/feather/blob/master/LICENSE).
+That way we can both keep our sanity.
