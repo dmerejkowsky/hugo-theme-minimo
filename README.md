@@ -18,3 +18,5 @@ Instead, I suggest you:
 * Take at my patches one by one, consider if you need them, then apply them in your fork if required
 
 That way we can both keep our sanity.
+
+Thank you for your understanding.
