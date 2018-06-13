@@ -1,4 +1,5 @@
 <meta name='twitter:card' content='summary{{- if .Params.cover -}}_large_image{{- end -}}'>
+<meta name='twitter:title' content='{{ .Page.Title }}'>
 
 {{- with .Site.Params.opengraph.twitter.page -}}
   <meta name='twitter:site' content='@{{- . -}}'>
