@@ -1,7 +1,6 @@
-<p>
-<button type="button" onclick="toggleSpoiler()">Toggle spoiler</button>
-</p>
-<div id="spoiler" class="hidden">
-  <br />
+<details>
+  <summary><button>Toggle Spoiler</button></summary>
+  <p>
   {{ .Inner | markdownify }}
-</div>
+  </p>
+</details>
