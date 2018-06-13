@@ -30,6 +30,7 @@
     "webpack": "^2.5.1"
   },
   "dependencies": {
-    "es6-docready": "^1.0.0"
+    "es6-docready": "^1.0.0",
+    "sass": "^1.5.1"
   }
 }
