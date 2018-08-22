@@ -15,7 +15,7 @@
           {{- if eq .Data.Singular "author" -}}
             {{- partial "data/author/displayName" . -}}
           {{- else -}}
-            {{- .Title -}}
+            {{- .Title | lower -}}
           {{- end -}}
         </h1>
 
@@ -29,7 +29,7 @@
     {{ partial "entry/content" . }}
   </div>
   {{ end }}
-    
+
   <div class='list-container'>
     <ul class='list'>
       {{ range .Paginator.Pages }}
