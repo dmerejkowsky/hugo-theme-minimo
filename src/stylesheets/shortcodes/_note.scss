@@ -4,6 +4,12 @@ div.note {
   border-bottom: 0.2em solid $color__grey;
   border-top: 0.2em solid $color__grey;
   border-spacing: 3em 3em;
+  font-style: italic;
+
+  em {
+    font-style: normal;
+  }
+
 }
 
 div.note::before {

@@ -17,7 +17,7 @@ Some text above the note.
 
 {{<note>}}
 From now on, everything takes place on a **Linux** machine. There are some differences when using macOS or Windows, but for the sake of simplicity I will only deal with one platform here.
-We will also use **Python3** only. Again, in Python2 things are a little different, but let's keep things simple.
+We will also use **Python3** only. Again, in Python2 things are a little different, but let's keep things simple. This an *emphasized* term in the note.
 {{</note>}}
 
 
