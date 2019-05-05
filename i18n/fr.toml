@@ -48,3 +48,34 @@ other = "Aller au contenu"
 
 [tableOfContents]
 other = "Table des matières"
+
+[licensedUnder]
+other = "Contenu placé sous license"
+
+[feedbackInvitation]
+other = """
+    <p>
+      Merci d'avoir lu jusqu'au bout !
+    </p>
+    <p>
+      Je serais ravi d'avoir vos retours. Rendez-vous sur la <a href="https://dmerej.info/blog/fr/pages/contact">page de contact</a>
+      pour me joindre de votre façon préférée, ou bien laissez un commentaire ci-dessous.
+    </p>
+
+    <p>
+    Pour être prévenu de la publication des prochains articles, vous pouvez:
+    <ul>
+      <li>vous abonner au <a href="https://dmerej.info/blog/fr/post/index.xml">flux RSS</a> ou à ma <a href=""> newsletter</a>
+      <li>ou me suivre sur
+          <a href="https://mamot.fr/@dmerej">Mastodon</a>,
+          <a href="https://dev.to/dmerejkowsky">dev.to</a>, ou
+          <a href="https://twitter.com/d_merej">twitter</a>.
+      </li>
+    </ul>
+    </p>
+
+    <p>
+      À bientôt
+    </p>
+  </div>
+"""

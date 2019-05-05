@@ -4,32 +4,6 @@
   {{- if not ( eq .Params.feedback false ) -}}
   <hr />
   <div id='feedback-invitation'>
-    <p>
-      Thanks for reading this far :)
-    </p>
-    <p>
-      I'd love to hear what you have to say, so please feel free to leave a comment below, or
-      read the <a href="{{ .Site.BaseURL }}/pages/contact">contact page</a>
-      for more ways to get in touch with me.
-    </p>
-
-    <p>
-      Note that to get notified when new articles are published, you can either:
-      <ul>
-        <li>Subscribe to the <a href="{{ .Site.BaseURL }}/index.xml">RSS feed</a> or
-            the <a href="{{ .Site.BaseURL }}/post/introducing-dmerej-newsletter/">newsletter</a>
-        </li>
-        <li>Or follow me on
-            <a href="https://mamot.fr/@dmerej">Mastodon</a>,
-            <a href="https://dev.to/dmerejkowsky">dev.to</a>, or
-            <a href="https://twitter.com/d_merej">twitter</a>.
-        </li>
-      </ul>
-    </p>
-
-    <p>
-      Cheers!
-    </p>
-  </div>
+    {{ i18n "feedbackInvitation" | safeHTML }}
   {{- end -}}
 </div>
