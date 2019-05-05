@@ -1,0 +1,50 @@
+[author]
+one = "Auteur"
+other = "Auteurs"
+
+[by]
+other = "par"
+
+[category]
+one = "Catégorie"
+other = "Catégories"
+
+[goHome]
+other = "Retour à l'accueil ..."
+
+[next]
+other = "Suivant"
+
+[nextPage]
+other = "Page suivante"
+
+[nextPost]
+other = "Article suivant"
+
+[page]
+other = "page"
+
+[previous]
+other = "Précédent"
+
+[previousPage]
+other = "Page précédente"
+
+[previousPost]
+other = "Article précédent"
+
+[postedOn]
+other = "Publié le"
+
+[readingTime]
+one = "moins d'une minute de lecture"
+other = "{{ .Count }} minutes de lecture"
+
+[recentPosts]
+other = "Articles récents"
+
+[skipToContent]
+other = "Aller au contenu"
+
+[tableOfContents]
+other = "Table des matières"
