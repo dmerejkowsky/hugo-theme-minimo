@@ -58,14 +58,14 @@ other = """
       Merci d'avoir lu jusqu'au bout !
     </p>
     <p>
-      Je serais ravi d'avoir vos retours. Rendez-vous sur la <a href="https://dmerej.info/blog/fr/pages/contact">page de contact</a>
+      Je serais ravi d'avoir vos retours. Rendez-vous sur la <a href="https://dmerej.info/blog/fr/pages/about">page de contact</a>
       pour me joindre de votre façon préférée, ou bien laissez un commentaire ci-dessous.
     </p>
 
     <p>
     Pour être prévenu de la publication des prochains articles, vous pouvez:
     <ul>
-      <li>vous abonner au <a href="https://dmerej.info/blog/fr/post/index.xml">flux RSS</a> ou à ma <a href=""> newsletter</a>
+      <li>vous abonner au <a href="https://dmerej.info/blog/fr/post/index.xml">flux RSS</a>
       <li>ou me suivre sur
           <a href="https://mamot.fr/@dmerej">Mastodon</a>,
           <a href="https://dev.to/dmerejkowsky">dev.to</a>, ou
@@ -75,7 +75,7 @@ other = """
     </p>
 
     <p>
-      À bientôt
+      À bientôt.
     </p>
   </div>
 """
