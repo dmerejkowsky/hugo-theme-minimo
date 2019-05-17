@@ -9,6 +9,9 @@ other = "par"
 one = "Catégorie"
 other = "Catégories"
 
+[githubEdit]
+other = "Suggérer une modification"
+
 [goHome]
 other = "Retour à l'accueil ..."
 
