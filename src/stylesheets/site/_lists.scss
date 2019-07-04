@@ -2,6 +2,10 @@
   @extend %flexContainer;
 }
 
+.date {
+  color: lighten($color__text-main, .2);
+}
+
 .list {
   @extend %widthLimit;
 
