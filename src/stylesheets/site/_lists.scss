@@ -77,7 +77,8 @@
 #tag-list {
 ul {
     max-width: 50%;
-    columns: 3;
+    column-width: 5em;
     list-style-type: none;
+    white-space: nowrap;
   }
 }
