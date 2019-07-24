@@ -3,9 +3,11 @@
 {{- $lang := ( $.Params.Lang | default $.Lang ) -}}
 
 <span class='byline'>
-  {{- partial "svg/icons" "author" -}}
   <span class='screen-reader'> {{ i18n "by" }} </span>
-  <a href="../../pages/about">Dimitri Merejkowsky</a>
+  {{- partial "svg/icons" "author" -}}
+  {{- $authorID := (index . 0) -}}
+  {{- $author := ( index $.Site.Data.authors $authorID ) -}}
+  <a href="{{ $author.url }}">{{ $author.name.display }}</a>
 </span>
 
 {{- end -}}
