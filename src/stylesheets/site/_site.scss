@@ -21,6 +21,11 @@
 // Footer
 @import "footer";
 
+// Comments
+.isso-comment a {
+  text-decoration: underline !important;
+}
+
 .icon {
   @extend %svgIcon;
 
@@ -30,3 +35,4 @@
   position: relative;
   top: 2px;
 }
+
