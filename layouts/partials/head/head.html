@@ -3,8 +3,9 @@
   <title>{{ partial "data/title" . }}</title>
   <link rel='author' href='/humans.txt' />
   <link rel='canonical' href='{{ .Permalink }}'>
-  {{ if .RSSLink }}
-    <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+  {{- $siteTile := .Site.Title -}}
+  {{ with .OutputFormats.Get "RSS" }}
+  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $siteTile }}" />
   {{ end }}
   {{ partial "head/hreflang" . }}
   {{ partial "head/includes" . }}
