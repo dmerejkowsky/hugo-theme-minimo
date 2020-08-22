@@ -6,7 +6,7 @@
     <div class='header list-header'>
       <div class='header-info'>
         <h1 class='title'>
-          {{- if eq .Kind "taxonomy" -}}
+          {{- if eq .Kind "term" -}}
           <span class='taxonomy-type'>
             {{- ( ( i18n .Data.Singular 1 ) | default .Data.Singular ) | title -}}
             {{- print ": " -}}
