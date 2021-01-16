@@ -1,11 +1,11 @@
 {{ partial "header" . }}
 
 <main id='main' class='main'>
-  {{ if .Content }}
   <article class='entry'>
-    {{ partial "entry/content" . }}
+    <div class="entry-content">
+        {{- i18n "bilingual" | safeHTML -}}
+    </div>
   </article>
-  {{ end }}
 
   <div class='home-sections-container'>
     <div class='home-sections'>

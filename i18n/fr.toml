@@ -55,6 +55,21 @@ other = "Table des matières"
 [licensedUnder]
 other = "Contenu placé sous license"
 
+[bilingual]
+other = """
+<p>
+Bienvenue sur mon blog !
+</p>
+
+<p>
+Notez qu'une version anglaise est disponible
+à l'adresse suivante:
+</p>
+<p>
+<a href="https://dmerej.info/blog">https://dmerej.info/blog</a>
+</p>
+"""
+
 [feedbackInvitation]
 other = """
     <p>

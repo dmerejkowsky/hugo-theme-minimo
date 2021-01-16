@@ -81,6 +81,20 @@ other = "Tags"
 [licensedUnder]
 other = "This work is licensed under"
 
+[bilingual]
+other = """
+<p>
+Welcome to my blog!
+</p>
+
+<p>
+Note that a French version is available at the following address:
+</p>
+<p>
+<a href="https://dmerej.info/blog">https://dmerej.info/blog/fr</a>
+</p>
+"""
+
 [feedbackInvitation]
 other = """
     <p>
