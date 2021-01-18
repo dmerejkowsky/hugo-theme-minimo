@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dmerej's blog</title>
+    <title>{{ .Site.Title }}</title>
     <link>{{ .Permalink }}</link>
     <description>Latests posts on dmerej's blog</description>
     <generator>Hugo -- gohugo.io</generator>{{ with .Site.LanguageCode }}
