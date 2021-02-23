@@ -26,6 +26,14 @@
   text-decoration: underline !important;
 }
 
+a.anchor {
+   text-decoration: none;
+   border-bottom: none;
+   color: $color__grey;
+   font-size: 0.8em;
+}
+
+
 .icon {
   @extend %svgIcon;
 
